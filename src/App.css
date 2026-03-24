@@ -87,4 +87,29 @@
   display: flex;
   justify-content: space-between;
   font-weight: bold;
+} 
+.task-item button {
+  margin-left: 8px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background: #4e73df;
+  color: white;
+  cursor: pointer;
+}
+
+.task-item button:hover {
+  background: #2e59d9;
+}
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+}
+
+.task-item button {
+  margin-left: auto;
+  padding: 4px 8px;
+  cursor: pointer;
 }
