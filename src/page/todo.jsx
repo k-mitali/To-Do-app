@@ -79,7 +79,7 @@ const getTasks = useCallback(async () => {
     <div style={styles.page}>
       <div style={styles.container}>
         <div style={styles.header}>
-          <h1 style={styles.title}>📝 My Tasks</h1>
+          <h1 style={styles.title}>My Tasks</h1>
           <button style={styles.logoutBtn} onClick={handleLogout}>Logout</button>
         </div>
 
